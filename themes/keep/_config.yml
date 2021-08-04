@@ -40,7 +40,7 @@ style:
   first_screen:
     enable: true
     background_img: /images/bg.svg   # You can use local image or image external link
-    description: Keep writing and Keep loving.
+    description: Criticism is something you can easily avoid by saying nothing, doing nothing, and being nothing.
 
   # Scroll style settings
   scroll:
