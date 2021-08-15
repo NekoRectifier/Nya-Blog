@@ -94,10 +94,10 @@ rules:
 
 * 登入路由器[192.168.123.1](192.168.123.1)
 
-* ![](/images/clashsetup/1.png)
-  如图所示,点击左侧菜单栏的"搭建web环境", 后在页面上方的标签栏里找到clash并点击
-
-* ![](/images/clashsetup/2.png)
+* 如图所示,点击左侧菜单栏的"搭建web环境", 后在页面上方的标签栏里找到clash并点击
+  ![ ](/images/clashsetup/1.png)
+  
+* ![ ](/images/clashsetup/2.png)
   
   * 先将红色框内的四个开关打开
 
