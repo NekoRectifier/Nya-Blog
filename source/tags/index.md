@@ -1,6 +1,5 @@
 ---
-title:
-  '[object Object]': null
-date:
-  '[object Object]': null
+title: Tags
+date: 2021-10-20 00:00:00
+type: "tags"
 ---
