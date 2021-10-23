@@ -11,7 +11,9 @@ date: 2021-08-04 18:11:53
 
 * 废物
 
-* Android 无基础开发经验
+* LeetCode 萌新 
+
+* Android / Java 业余开发
 
 ## 习性
 
