@@ -1,2 +1,2 @@
 # Nya-Blog
-Visit my blog at [HERE]("https://nekorectifier.vercel.app")
+Visit my blog at "https://nekorectifier.vercel.app"
