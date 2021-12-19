@@ -78,7 +78,7 @@ VSCode作为一款轻量级的代码编辑器, 其丰富的插件给其增加了
     code-server --bind-addr 0.0.0.0:8080 --disable-telemetry
 ```
 
-登陆密码可以在`~/.config/code-server/config.yaml`找到
+登陆密码可以在 `~/.config/code-server/config.yaml` 找到
 
 * 启用HTTPS功能
 
