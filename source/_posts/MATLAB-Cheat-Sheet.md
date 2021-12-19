@@ -67,17 +67,17 @@ tags: MATLAB
 
     > 还有 `meshc()` 和 `meshz()` , `c` 是等高线; 而 `z` 是底部加固体填充. 具体见图片.
 
-![`meshc()`](source/_posts/MATLAB-Cheat-Sheet/meshc.png)
+![`meshc()`](meshc.png)
 
-![`meshz()`](source/_posts/MATLAB-Cheat-Sheet/meshz.png)
+![`meshz()`](meshz.png)
 
-![`plot3()`](source/_posts/MATLAB-Cheat-Sheet/plot3.png)
+![`plot3()`](plot3.png)
 
 >   `surfc()` 相比原来的 `surf()` 是多加了个等高线在 `X-Y` 面上.
 
 - 使用 `colorbar` 来添加颜色栏 
 
-![`surfc()` 的样子](source/_posts/MATLAB-Cheat-Sheet/surfc.png)
+![`surfc()` 的样子](surfc.png)
 
 ## 子图绘制 `subplot`
 
