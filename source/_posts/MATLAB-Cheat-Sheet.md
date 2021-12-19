@@ -60,7 +60,9 @@ tags: MATLAB
 先使用 `meshgrid` 生成一组 `(X,Y)` 点, 再声明新的函数因变量, 如 `F = X.*exp(-X.^2-Y.^2);` .  
 
 *   曲面图生成  
-    `surf(X,Y,F);`. 
+    `surf(X,Y,F);`.
+
+    ![`surfc()` 的样子](surfc.png)
 
 *   曲面点图生成  
     `mesh(X,Y,F);`
@@ -77,11 +79,9 @@ tags: MATLAB
 
 - 使用 `colorbar` 来添加颜色栏 
 
-![`surfc()` 的样子](surfc.png)
-
 ## 子图绘制 `subplot`
 
-```Matlab Script
+```MatlabScript
     subplot(m,n,p);
     subplot(m,n,p,'replace');
     subplot(m,n,p,'align');
@@ -106,7 +106,7 @@ tags: MATLAB
 
 ## 循环语句
 
-```Matlab Script
+```MatlabScript
     for n = 0:MAX
         [Other codes]
     end
@@ -118,7 +118,7 @@ tags: MATLAB
 
 ## 判断语句
 
-```Matlab Script
+```MatlabScript
     if num > 100
         a = 1000
     elseif num < 0
