@@ -10,23 +10,23 @@ tags: Android, OpenCV
 
 下载到本地后解压即可
 
-![解压后图片]("解压后.png")
+![解压后图片](afterde.png)
 
 ## Android Studio相关配置
 
 1.  新建一个项目,新建选项要选择 `Native C++` ,名称等配置随意.  
 
-    ![Native]("Native.png")
+    ![Native](native.png)
 
 2.  新建完后导入opencv模块, 在`File` > `New` > `Import Module` 里
 
-    ![Module]("Import_Module.png")
+    ![Module](importmodule.png)
 
     在打开的窗口内选择 `sdk` 文件夹导入即可  
 (适用于有build.gradle在解压文件夹下的情况,如果没有则本片指南不适用于你的opencv版本)
 
 3.  现在你的项目文件在 `Android` 视角下应该是这个样子  
-![项目列表]("项目列表.png")
+![项目列表](projlist.png)
 
     -   如果导入后项目报 `kotlin` 相关错误, 则在 `build.gradle (Project: XXX)` 中,添加  
 
@@ -54,7 +54,7 @@ tags: Android, OpenCV
 
     选择 `File` > `Project Structure`
 
-    ![Proj_Stru](Proj_Stru.png)
+    ![Proj](projstru.png)
 
     点击 `Module Dependency` 后在弹出的新窗口内选择刚刚添加的 `opencv sdk`即可
 
