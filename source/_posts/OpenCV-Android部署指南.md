@@ -16,7 +16,7 @@ tags: Android, OpenCV
 
 1.  新建一个项目,新建选项要选择 `Native C++` ,名称等配置随意.  
 
-    ![Native](native.png)
+    ![Native](nativ.png)
 
 2.  新建完后导入opencv模块, 在`File` > `New` > `Import Module` 里
 
@@ -50,7 +50,6 @@ tags: Android, OpenCV
         ```
 
         如果没有则无视以上内容
-
 
     选择 `File` > `Project Structure`
 
