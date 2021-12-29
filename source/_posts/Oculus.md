@@ -1,7 +1,7 @@
 ---
 title: Oculus Quest2 无Facebook账户激活
 date: 2021-09-27 19:32:42
-tags: Oculus
+tags: [Oculus]
 ---
  Oculus Quest2 无Facebook账户激活.md
 

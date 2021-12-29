@@ -1,7 +1,7 @@
 ---
 title: OpenCV_Android部署指南
 date: 2021-12-22 16:17:41
-tags: Android, OpenCV
+tags: [Android, OpenCV]
 ---
 
 ## OpenCV Release获取

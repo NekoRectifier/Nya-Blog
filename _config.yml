@@ -76,6 +76,12 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: keep
 
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:

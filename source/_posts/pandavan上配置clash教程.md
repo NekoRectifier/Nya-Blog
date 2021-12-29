@@ -1,7 +1,7 @@
 ---
 title: pandavan上配置clash教程
 date: 2021-08-15 19:20:02
-tags: 路由器
+tags: [路由器]
 ---
 
 本次使用的设备是 **极路由 B70** 已刷入最新breed与pandavan.

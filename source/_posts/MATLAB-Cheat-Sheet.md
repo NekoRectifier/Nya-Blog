@@ -1,7 +1,7 @@
 ---
 title: MATLAB Cheat sheet
 date: 2021-12-18 16:15:39
-tags: MATLAB
+tags: [MATLAB]
 ---
 
 # Misc (杂项)

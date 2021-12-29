@@ -23,7 +23,7 @@ style:
   favicon: /images/favicon.svg
 
   # Article image align position, value: left | center
-  article_img_align: left
+  article_img_align: center
 
   # Left side width
   left_side_width: 260px
@@ -58,7 +58,7 @@ social_contact:
   links:
     github: https://github.com/NekoRectifier         # your GitHub URL
     weixin:          # your WeChat QR-Code URL
-    qq:              # your QQ QR-Code URL
+    qq: https://qm.qq.com/cgi-bin/qm/qr?k=ZBdE0mEQewBxCV7-w-r86opolyTm2NqR&noverify=0 # your QQ QR-Code URL
     weibo:           # your WeiBo URL
     zhihu:           # your ZhiHu URL
     twitter:         # your twitter URL
@@ -72,7 +72,7 @@ social_contact:
 menu:
   Home: /
   Archives: /archives
-  # Categories: /categories
+  Categories: /categories
   Tags: /tags
   # Links: /links
   About: /about
@@ -85,7 +85,7 @@ menu:
 # ---------------------------------------------------------------------------------------
 home_article:
   category:
-    enable: false     # show category in home page article block
+    enable: true     # show category in home page article block
     limit: 3          # max number of categories shown in home page article block
   tag:
     enable: true     # show tags in home page article block
@@ -117,7 +117,7 @@ post:
 # ---------------------------------------------------------------------------------------
 code_copy:
   enable: true
-  style: mac        # values: default | mac
+  style: default        # values: default | mac
 
 
 # ---------------------------------------------------------------------------------------
@@ -127,7 +127,7 @@ toc:
   enable: true
 
   # Automatically add list number to toc.
-  number: false
+  number: true
 
   # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
   expand_all: false
@@ -170,15 +170,15 @@ local_search:
 # Comment plugin
 # ---------------------------------------------------------------------------------------
 comment:
-  enable: false
+  enable: true
   use: valine  # values: valine | gitalk | twikoo
 
   # Valine
   # See: https://github.com/xCss/Valine
   valine:
-    appid:                # your leancloud application appid
-    appkey:               # your leancloud application appkey
-    placeholder:          # your placeholder
+    appid: HlCzQGUOMfVGiIwBP96xYVlm-MdYXbMMI               # your leancloud application appid
+    appkey: n26aUkG02lM2ke3bPdX5koSF              # your leancloud application appkey
+    placeholder: 不说点什么吗?         # your placeholder
 
   # Gitalk
   # See: https://github.com/gitalk/gitalk
