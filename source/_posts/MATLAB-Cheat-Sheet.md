@@ -17,6 +17,8 @@ tags: [MATLAB]
 
     > 作图时貌似是很重要的玩意, 必须要有。
 
+![mutlibyelementormartrix](mutlibyelementormartrix.png)
+
 *   使用`format`来控制变量显示的精度  
     如: `format long`   显示15位小数  
         `format short`  再切换回4位小数
@@ -32,7 +34,13 @@ tags: [MATLAB]
     范例: `[X,Y,Z] = meshgrid(x,y,z)`  
     > 当只有 `X` 和 `Y` 参数时, 返回二维坐标点, 反之亦然。  
 
-    作为参数的 `x` 和 `y` 的定义应如下所示: `x = 1:3`  
+    作为参数的 `x` 和 `y` 的定义应如下所示: `x = 1:3`
+
+*   获取函数的多个输出 : 用`[]`  
+    `[row, col] = size(x)`  
+    得到数组的横纵长度值  
+    `[value, index] = max(x)`  
+    得到数组最大值和其索引值
 
 # 矩阵相关
 
@@ -63,6 +71,30 @@ tags: [MATLAB]
 使用 `x(row,column)` 来指定。
 
 > 指定后可以对特定值直接进行赋值操作。
+
+*   
+    使用 `end` 关键字可以指定"最后"的行或列  
+    如: `x = data(end, 3);`
+
+*   使用 `:` 可代表所有"行"或"列"  
+    如: `x = data(:,3);`
+
+*   如果只使用一种索引 `x` (线性索引), 则它将按顺序从上到下遍历每列。
+
+*   索引可以是非连续的 如: ``
+
+![lineartosub](linearidtosubid.png)
+
+### 数组运算
+
+*   数组支持基于相同大小的数组的四则运算  
+    `sum = x + y;`
+
+*   或是任意数组与任意标量的运算  
+    `a = x + 2;`
+
+*   同样的任意大小的数组也支持进行各种函数运算  
+    如: `sin(data)` 和 `sqrt(data)`
 
 # 制图相关
 
