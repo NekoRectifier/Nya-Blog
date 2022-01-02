@@ -223,8 +223,26 @@ tags: [MATLAB]
         `scatter(x,y,{size})`  
         看起来好像没有上限的样子, 要做成随图像变化的样子则需要标记大小参数长度与 `x` 和 `y` 相同
     -   更改点的颜色 (第四个参数)
-        
-
+        `scatter(x,y,[],{color})`  
+        颜色必须为一个 RGB 三元组、每个散射点对应一种颜色的 RGB 三元组所组成的 m×3 矩阵或每个散点对应一个值的 m×1 向量。  
+        不过我做出来都是这种颜色:  
+        ![scattercolor](scattercolor.png)
+    -   更改点  
+        1. 在最后加 `filled` 属性即可实现填充点的效果
+        2. 在最后加 `d` 或其他可以指定点的形状
+*   阶梯图 `stairs()`  
+    与 `plot()` 相同
+*   主干图 `stem()`  
+    与 `plot()` 相同
+*   面积图 `area()`
+    与 `plot()` 相同  
+    *(就是 `plot`加了面积而已*
+*   柱状图 `bar()`  
+    大体与 `plot()` 相同
+    -   堆叠式  
+        添加 `stacked` 属性
+    -   分组  
+        ![bargroup](bargroup.png)
 
 
 ### 作图相关
