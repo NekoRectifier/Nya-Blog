@@ -129,7 +129,7 @@ tags: [MATLAB]
 
 这样就会将满足条件的元素添加到 `x` 中去
 
-同样的,这个也支持逻辑运算符 `& and` 和 `| or`  
+同样的,这个也支持逻辑运算符 `&`; `|`; `~`  
 如: `x = v1(v1>6 | v1<2)`
 
 *   `isnan(v)` 输出逻辑向量来说明被判断的值是否为空 (1代表空)
@@ -206,6 +206,13 @@ tags: [MATLAB]
 
 *   `legend("{sth1}","{sth2}")` 用于添加图例。  
     ![legend](legend.png)
+
+*   `xtick()` 和 `xticklabel()`  
+    ![xticklabel](xticklabel.png)
+    `xtick()` 中指明要添加 `label` 的列即可 (index直接指明)  
+    `xticklabel()` 中直接写要添加的文本内容即可
+
+    > 指明的列和文本数量不需匹配
 ## 2D制图
 
 ### 图表类型
@@ -243,12 +250,23 @@ tags: [MATLAB]
         添加 `stacked` 属性
     -   分组  
         ![bargroup](bargroup.png)
+*   饼图 `pie()`
 
+
+### 以矩阵作图
+
+![matrixplotting](matrixplotting.png)  
+<center>`plot({matrix})`</center>
+
+如果采用 `plot(data)`, 则将"Month"视为x轴;  
+而如果是 `plot(data')`, 则"Years"为x轴  
+
+y轴是由元素值自动生成的
 
 ### 作图相关
 
-* 改变图线: 通过在 `plot()` 的第三个参数中指定颜色/样式/端点形状.  
-稍微具体一点的格式如下:
+* 改变图线: 通过在函数的第三个参数中指定颜色/样式/端点形状.  
+格式如下:  
 
 |颜色|样式|形状|
 |----|----|----|
@@ -265,16 +283,19 @@ tags: [MATLAB]
 *   `xlim` 与 `ylim`  
     用于手动设置图像范围. 用法: `x/ylim([{起始} {终止}])`
 
+*   `axis tight`  
+    使图像范围适应到数据的最大值和最小值
+
 ## 3D制图
 
-先使用 `meshgrid` 生成一组 `(X,Y)` 点, 再声明新的函数因变量, 如 `F = X.*exp(-X.^2-Y.^2);` .  
+### 图表类型
 
-*   曲面图生成  
+*   标准曲面图  
     `surf(X,Y,F);`.
 
     ![`surfc()` 的样子](surfc.png)
 
-*   曲面点图生成  
+*   曲面点图
     `mesh(X,Y,F);`
 
     > 还有 `meshc()` 和 `meshz()` , `c` 是等高线; 而 `z` 是底部加固体填充. 具体见图片.
@@ -286,6 +307,9 @@ tags: [MATLAB]
 ![`plot3()`](plot3.png)
 
 >   `surfc()` 相比原来的 `surf()` 是多加了个等高线在 `X-Y` 面上.
+
+*   等高线图
+    `contour()`
 
 - 使用 `colorbar` 来添加颜色栏 
 
