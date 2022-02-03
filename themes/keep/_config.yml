@@ -6,7 +6,7 @@ base_info:
   author: NekoRectifier
   url: https://nekorectifier.site/
   # Logo image (You can use local image, image external link or don’t fill)
-  logo_img:
+  logo_img: /image/logo.png
 
 
 # ---------------------------------------------------------------------------------------
@@ -17,10 +17,10 @@ style:
   primary_color: '#222222'
 
   # Avatar (You can use local image or image external link)
-  avatar: /images/avatar.png
+  avatar: /images/avatar.jpg
 
   # Favicon (You can use local image or image external link)
-  favicon: /images/favicon.svg
+  favicon: /images/logo_round.svg
 
   # Article image align position, value: left | center
   article_img_align: center
