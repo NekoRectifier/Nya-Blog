@@ -3,20 +3,31 @@ title: about
 date: 2021-08-04 18:11:53
 ---
 
-## 简介
+# NekoRectifier
 
-* 无用大学生
+<img align="right" src="https://github-readme-stats.vercel.app/api?username=NekoRectifier" width=400 />
 
-* 回避型人格障碍患者 (AvPD)
+Hi, there!
 
-* 废物
+- 🖥️ Typical Windows user
+- 📱  Android developer
+- 🏫 Undergraduate in China  
+  (Major **Automotive Engineering**)
+- 💖 ACGN lover
 
-* LeetCode 萌新 
+## 🎓 Current learning...
 
-* Android / Java 业余开发
+- 🤖 Android Jetpack / Kotlin.
+- ⚙️ FEM Analysis with ANSYS
+- 📘 College English
+- 📚 (Maybe) Japanese
+- 💻 BASIC Computer Science
 
-## 习性
+## 💬 Get in touch
+/keybase/pgp/:username
 
-* 睡觉
 
-### 更多信息还在填写中
+
+[![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=NekoRectifier&theme=react-dark)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+
