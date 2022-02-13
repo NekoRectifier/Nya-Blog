@@ -185,6 +185,7 @@ tags: [MATLAB]
 *   `zeros({row},{col})`   生成全是0的矩阵
 
 *   `ones({row},{col})`    生成全是1的矩阵
+
 #### 格式转换
 
 *   `reshape({ori},{row},{col})`  
