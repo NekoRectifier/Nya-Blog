@@ -6,26 +6,29 @@ tags: Android, Jetpack
 
 ## 前言
 
-之前只听说过`dataBinding`，在网上关于它的讲解一大把。如：[Android DataBinding 从入门到进阶](https://juejin.cn/post/6844903609079971854)。但是很少注意到`viewBinding`。  
-直到最近才发现Android Studio中默认生成的java Fragment中有这么几行：
+`viewBinding`相当于`dataBinding`的精简版。功能上能够方便的获取视图组件的实例，避免了`findViewById()`的繁琐操作，但是不能将数据绑定到视图组件上。不过在开发轻量级应用时，这个功能足够满足需求了。  
+关于`dataBinding`，在网上关于它的讲解不少。如：[Android DataBinding 从入门到进阶](https://juejin.cn/post/6844903609079971854)。  
+
+## 开始使用
+
+在Android Studio中默认生成项目中的java中有这么几行：
 
 ```java
-    private FragmentCommunicationTripCodeBinding binding;
+    private <xml名称>Binding binding;
 
     @Override
     public View onCreateView(
-            @NonNull LayoutInflater inflater, ViewGroup container,
-            Bundle savedInstanceState
+            @NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState
     ) {
 
-        binding = FragmentCommunicationTripCodeBinding.inflate(inflater, container, false);
+        binding = <xml名称>Binding.inflate(inflater, container, false);
         return binding.getRoot();
     }
 ```
 
 而且有了以上代码，对应布局文件中的组件就可以直接通过`binding.<id>`获取到了。使用起来十分方便。
 
-## 具体食用方法
+### 具体食用方法
 
 1. 开启viewBinding功能
     在`build.gradle(Module)`中添加以下代码：
@@ -44,7 +47,7 @@ tags: Android, Jetpack
     > 注意你所使用的gradel版本，写法可能与我有所不同。
 
 2. 修改布局文件
-    在布局文件中的根组件中，添加以下代码：
+    在布局文件中的**根**组件中，添加以下代码：
 
     ```xml
       tools:context=".NationalGovernmentPlatformFragment"
@@ -73,8 +76,17 @@ tags: Android, Jetpack
     private <xml名称>Binding binding = <xml名称>Binding.inflate(inflater, container, false);
     ```
 
-    > xml名称首字母需大写, 如：`FragmentCommunicationTripCodeBinding`
+    > xml名称首字母需大写, 如：`FragmentCommunication`
 
 4. 最后就可以通过`binding.<id>`获取到对应的组件了。
 
-....有待后续更新
+    ```java
+    public void onViewCreated(View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        binding.tvTitle.setText("我是标题");
+    }
+    ```
+
+    > 注意：`binding.<id>`中的`<id>`是根据布局文件中的组件的id来写的。
+
