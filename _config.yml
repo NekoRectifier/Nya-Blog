@@ -30,6 +30,7 @@ skip_render:
     - 'payment/**'
     - 'autocheckin/**'
     - 'assets/**'
+    - 'r-18/**'
 
 # Writing
 new_post_name: :title.md # File name of new posts
