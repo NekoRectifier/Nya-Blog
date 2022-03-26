@@ -342,7 +342,7 @@
   "resolved" "https://registry.nlark.com/escape-html/download/escape-html-1.0.3.tgz"
   "version" "1.0.3"
 
-"esprima@^4.0.0":
+"esprima@^4.0.0", "esprima@^4.0.1":
   "integrity" "sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A== sha1-E7BM2z5sXRnfkatph6hpVhmwqnE="
   "resolved" "https://registry.nlark.com/esprima/download/esprima-4.0.1.tgz"
   "version" "4.0.1"
@@ -598,10 +598,10 @@
   "resolved" "https://registry.npm.taobao.org/hexo-wordcount/download/hexo-wordcount-6.0.1.tgz"
   "version" "6.0.1"
 
-"hexo@^5.4.0":
-  "integrity" "sha512-4vMDle5GjpMeOVrx0NKoTZCqrmpJVg3wNiNNUVjcoFfcpYcMzQUCZHBtQqLl7BzjJ8x2gs002VQ5yv0ZKtj8Jg== sha1-d9V/ocKfOrBZZP5OvZxE4j31Gzc="
-  "resolved" "https://registry.nlark.com/hexo/download/hexo-5.4.0.tgz"
-  "version" "5.4.0"
+"hexo@^5.4.1":
+  "integrity" "sha512-20tyZB8TfaddneySZZ40mGFsN/V9nlolToUnA2KhRVl1wl6uWT10mnziVjLMhQfaYddqCwD36NvOamGS3DOLhQ=="
+  "resolved" "https://registry.npmmirror.com/hexo/-/hexo-5.4.1.tgz"
+  "version" "5.4.1"
   dependencies:
     "abbrev" "^1.1.1"
     "archy" "^1.0.0"
@@ -614,6 +614,7 @@
     "hexo-log" "^2.0.0"
     "hexo-util" "^2.4.0"
     "js-yaml" "^4.0.0"
+    "js-yaml-js-types" "^1.0.0"
     "micromatch" "^4.0.2"
     "moment" "^2.22.2"
     "moment-timezone" "^0.5.21"
@@ -717,6 +718,13 @@
   "integrity" "sha1-6PvzdNxVb/iUehDcsFctYz8s+hA="
   "resolved" "https://registry.nlark.com/isexe/download/isexe-2.0.0.tgz"
   "version" "2.0.0"
+
+"js-yaml-js-types@^1.0.0":
+  "integrity" "sha512-UNjPwuoaj4mcHkJCJSF6l4MgkzoFjG+JJkBXMYNvjgO3yE9gTeRt+E6PN022vduz/daZZ7HmlEiSEE36NrGE4w=="
+  "resolved" "https://registry.npmmirror.com/js-yaml-js-types/-/js-yaml-js-types-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "esprima" "^4.0.1"
 
 "js-yaml@^3.13.1":
   "integrity" "sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g== sha1-2ugS/bOCX6MGYJqHFzg8UMNqBTc="
