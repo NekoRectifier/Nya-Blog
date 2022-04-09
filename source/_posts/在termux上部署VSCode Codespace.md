@@ -116,3 +116,10 @@ VSCode 作为一款轻量级的代码编辑器, 将其部署在移动平台上�
     ```
 
     Termux便会针对VSC自动生成https证书了
+
+## 后记 2022/04/09
+
+在酷安上出现一款`Code FA`的软件, 可以在移动设备上一键部署基于Ubuntu的VSCode，还提供了与其无缝衔接的已包装好的远程桌面。使用起来效果确实不错。  
+下载链接：https://www.coolapk.com/apk/com.nightmare.code 或 https://nightmare.fun/YanTool/resources/VSCode/
+
+原作者博文：https://www.imgeek.org/article/825360015

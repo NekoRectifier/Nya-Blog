@@ -9,7 +9,7 @@ tags: Android
 在Android中进行权限获取向来不是件容易事，尤其是在API23后Android引入了运行时权限的机制，这个机制的原理是通过检查应用程序的权限状态来控制应用程序的行为。同样也使得开发者在开发应用程序时需要更多考虑权限的问题。  
 以下便是在StackOverflow上看到的比较好的一个处理方法。
 
-## `onRequestPermissionsResult()` 替代品
+## 替代 `onRequestPermissionsResult()`
 
 在AndroidX时代，我们可以使用`registerForActivityResult()`来代替`onRequestPermissionsResult()`，这个方法可以让我们更加方便地处理权限请求的结果。
 
