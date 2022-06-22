@@ -1,7 +1,9 @@
 ---
 title: 解决Windows蓝牙连接不稳定问题
 date: 2022-05-24 21:45:03
-tags: Windows, Bluetooth
+tags: 
+    - Windows
+    - Bluetooth
 ---
 
 在日常使用WIndows蓝牙连接耳机使用时，经常会出现音频突然出现中断随后变得断断续续或直接失去与设备连接的情况。

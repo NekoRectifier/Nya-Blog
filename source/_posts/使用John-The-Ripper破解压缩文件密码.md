@@ -1,7 +1,8 @@
 ---
 title: 使用John The Ripper破解压缩文件密码
 date: 2022-02-03 16:18:28
-tags: crack
+tags: 
+  - crack
 ---
 
 ## 前言

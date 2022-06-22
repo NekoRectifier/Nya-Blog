@@ -1,7 +1,9 @@
 ---
 title: Linux基础命令学习
 date: 2021-08-11 14:32:05
-tags: [Linux]
+tags: 
+  - Linux
+  - 笔记
 ---
 
 ## shell

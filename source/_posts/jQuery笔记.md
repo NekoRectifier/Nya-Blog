@@ -1,7 +1,9 @@
 ---
 title: jQuery笔记
 date: 2021-10-26 22:08:07
-tags: [Web, jQuery]
+tags: 
+  - Web
+  - jQuery
 ---
 
 ## 基础语法

@@ -1,7 +1,10 @@
 ---
 title: 在termux上部署VSCode Codespace
 date: 2021-09-06 09:54:31
-tags: Web, Termux, VSC
+tags: 
+    - Web
+    - Termux
+    - VSC
 ---
 
 ## 前言

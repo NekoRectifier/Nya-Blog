@@ -1,7 +1,8 @@
 ---
 title: Redmi G 2021 BIOS 升降级指南
 date: 2022-04-07 15:30:51
-tags: BIOS
+tags: 
+    - BIOS
 ---
 
 ## BIOS驱动

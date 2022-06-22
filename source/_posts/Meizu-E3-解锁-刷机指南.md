@@ -1,7 +1,10 @@
 ---
 title: Meizu E3 解锁/刷机指南
 date: 2022-05-12 00:40:58
-tags: Android, 刷机
+tags: 
+  - Android
+  - 刷机
+  - crack
 ---
 
 ## 前言

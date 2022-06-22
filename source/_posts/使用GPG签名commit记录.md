@@ -1,7 +1,8 @@
 ---
 title: 使用GPG签名commit记录
 date: 2022-01-29 11:16:10
-tags: git
+tags: 
+  - git
 ---
 
 ## 前言

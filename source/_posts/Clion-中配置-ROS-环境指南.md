@@ -1,7 +1,9 @@
 ---
 title: Clion 中配置 ROS 环境指南
 date: 2022-06-22 20:10:44
-tags: Clion
+tags: 
+    - Clion
+    - ROS
 ---
 
 # 前言

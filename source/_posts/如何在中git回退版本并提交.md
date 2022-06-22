@@ -1,7 +1,8 @@
 ---
 title: 如何在中git回退版本并提交
 date: 2022-01-18 21:43:19
-tags: git
+tags: 
+    - git
 ---
 
 ## 前言
