@@ -17,17 +17,19 @@ tags:
 
 具体过程可参考：ROS Wiki 的 [构建ROS软件包](https://wiki.ros.org/cn/ROS/Tutorials/BuildingPackages)
 
-<!-- 确保你的工作目录为以下（或相似）的结构：
+确保你的工作目录为以下（或相似）的结构：
 ```bash
 tree catkin_working_dir
+├── CMakeLists.txt
 ├── build
 ├── devel
 ├── src
-│   ├── CMakeLists.txt
 │   ├── {your_package_name}
-│   │   ├── cmake
-│   │   │   ├── CMakeLists.txt
-``` -->
+│   │   ├── CMakeLists.txt
+│   │   ├── src
+│   │   ├── ...
+
+```
 
 ## 2. 设置 Clion Cmake 相关设置
 
