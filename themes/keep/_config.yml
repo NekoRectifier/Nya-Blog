@@ -61,7 +61,7 @@ social_contact:
     zhihu: # your ZhiHu URL
     twitter: # your twitter URL
     facebook: # your facebook URL
-    email: hyx123250@gmail.com # your email
+    email: nekorect@proton.me # your email
 
 # ---------------------------------------------------------------------------------------
 # Navigation menu
@@ -213,7 +213,7 @@ pjax:
 # Footer settings
 # ---------------------------------------------------------------------------------------
 footer:
-  since: # the starting year of your website, Can be null
+  since: 2021 # the starting year of your website, Can be null
   icp: # ICP record number of your website, Can be null
 
 # ---------------------------------------------------------------------------------------

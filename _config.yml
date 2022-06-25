@@ -4,11 +4,12 @@
 
 # Site
 title: Nya-Blog
-subtitle: 
-description:
-keywords:
+subtitle: Criticism is something you can easily avoid by saying nothing, doing nothing, and being nothing.
+description: A simple personal blog
+keywords: 
+  - Programming
 author: NekoRectifer
-language:
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
