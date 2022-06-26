@@ -9,3 +9,4 @@ public/
 .env.build
 .vercel
 desktop.files
+package-lock.json
