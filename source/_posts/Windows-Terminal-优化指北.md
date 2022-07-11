@@ -43,6 +43,8 @@ Terminal 自带的字体是 “Caskaydia Cove”，观感不错。同时它也�
 
 64 位的选择红色框内的下载，32 位的选择绿色框内的下载即可。
 
+如无法访问，也可以在[这里](https://nekorectifier.lanzouw.com/itFiQ06yir6h)下载。
+
 在完成新版 PowerShell 的安装以后，我们就进入到下一步：
 
 ## PowerShell 配置文件修改
