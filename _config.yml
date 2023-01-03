@@ -1,6 +1,4 @@
 # Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
 
 # Site
 title: Nya-Blog
@@ -14,7 +12,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://nekorectifier.site
+url: https://nekorect.eu.org
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
