@@ -1,5 +1,5 @@
 ---
-title: 在termux上部署VSCode Codespace
+title: 在 Termux 上部署 VSCode Codespace
 date: 2021-09-06 09:54:31
 tags: 
     - Web

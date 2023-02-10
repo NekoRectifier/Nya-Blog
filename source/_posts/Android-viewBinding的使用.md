@@ -3,7 +3,6 @@ title: Android viewBinding的使用
 date: 2022-02-13 10:42:29
 tags: 
     - Android
-    - Jetpack
 ---
 
 ## 前言

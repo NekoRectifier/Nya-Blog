@@ -1,5 +1,5 @@
 ---
-title: pandavan上配置clash教程
+title: pandavan 上配置 clash 教程
 date: 2021-08-15 19:20:02
 tags: 
   - Router
@@ -95,7 +95,7 @@ rules:
 
 * 登入路由器[192.168.123.1](192.168.123.1)
 
-* 如图所示,点击左侧菜单栏的"搭建web环境", 后在页面上方的标签栏里找到clash并点击
+* 如图所示,点击左侧菜单栏的"搭建web环境", 后在页面上方的标签栏里找到 clash 并点击
   ![ ](/images/clashsetup/1.png)
   
 * ![ ](/images/clashsetup/2.png)
