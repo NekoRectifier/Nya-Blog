@@ -8,6 +8,7 @@
   "dependencies": {
     "hexo": "^7.0.0-rc1",
     "hexo-admonition": "^1.1.2",
+    "hexo-asset-image": "github:xcodebuild/hexo-asset-image",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^2.0.0",
