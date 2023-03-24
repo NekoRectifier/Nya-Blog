@@ -17,7 +17,7 @@ tags:
   
   到[这里](https://github.com/termux/termux-x11/actions/workflows/debug_build.yml)任意点击一个 workflow
 
-  ![](/source/_posts/Termux-X11-在-Debian-11-上的部署与体验/workflow.png)
+  ![workflow](workflow.png)
 
   点击 `termux-x11` 下载压缩包即可。
 
@@ -46,7 +46,7 @@ tags:
 
   现在用 nano 编辑器打开了 termux 配置文件，接着用方向键找到 `#   allow-external-apps = true` 的这一行。
 
-  ![](Termux-X11-在-Debian-11-上的部署与体验/termux-properties.png)
+  ![termux-properties](termux-properties.png)
 
   将这一行行首的 “#” 号去掉，按 <kbd>ctrl</kbd> + <kbd>s</kbd> （termux小键盘上的 `ctrl` 与输入法上的 `s`）保存。然后按 <kbd>ctrl</kbd> + <kbd>x</kbd> 退出即可。
 
@@ -58,15 +58,15 @@ tags:
 
 > 推荐使用 [tmoe](https://doc.tmoe.me/zh/android.html)
 
-运行这条命令 
+运行这条命令
 
 ```bash
 curl -LO https://gitee.com/mo2/linux/raw/2/2.awk; awk -f 2.awk
-``` 
+```
 
 并在接下来的选择中一直选 `y`，（当选择语言时直接点击回车） 就可以见到 tmoe 的主界面了。
 
-![](Termux-X11-在-Debian-11-上的部署与体验/termux-tmoe.png)
+![ttmoe](termux-tmoe.png)
 
 > 如果你是 Android 12 及以上,则建议运行下 "修复Android 12 (signal9)" 以修复 Phantom Killer 的问题。
 
@@ -89,7 +89,7 @@ curl -LO https://gitee.com/mo2/linux/raw/2/2.awk; awk -f 2.awk
 
 - 安装 xfce4 桌面环境
 
-  ```bash 
+  ```bash
     sudo apt install xfce
     sudo apt install dbus-x11
   ```
@@ -99,6 +99,7 @@ curl -LO https://gitee.com/mo2/linux/raw/2/2.awk; awk -f 2.awk
   使用 `nano start.sh` 创建文件
 
   内容如下
+
   ```bash
   #!/bin/bash
   export DISPLAY=:0
@@ -111,11 +112,11 @@ curl -LO https://gitee.com/mo2/linux/raw/2/2.awk; awk -f 2.awk
 
   在宿主机的环境内运行 tmoe，编辑其 “环境变量与登录项管理”
 
-  ![](Termux-X11-在-Debian-11-上的部署与体验/tmoe-con-edit.png)
+  ![](tmoe-con-edit.png)
 
   然后选择 “共享tmp”
 
-  ![](Termux-X11-在-Debian-11-上的部署与体验/tmp.png)
+  ![](tmp.png)
 
   在新窗口中
 
@@ -135,5 +136,5 @@ curl -LO https://gitee.com/mo2/linux/raw/2/2.awk; awk -f 2.awk
 
 ## 参考链接
 
-【1】https://ivonblog.com/posts/termux-x11/
-【2】https://github.com/kde-yyds/termux-x11-plasma-installation-guide
+【1】<https://ivonblog.com/posts/termux-x11/>  
+【2】<https://github.com/kde-yyds/termux-x11-plasma-installation-guide>
