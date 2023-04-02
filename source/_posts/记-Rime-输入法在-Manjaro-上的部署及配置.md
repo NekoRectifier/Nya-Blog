@@ -69,6 +69,33 @@ tags:
             配置文件路径内的文件会在按下“部署”时进行编译，并在 `build/` 目录下输出编译后配置。
             如果配置文件错误，会将有问题的文件移动至 `trash/` 文件夹。
 
-        - 快捷键
+        - 「全局」快捷键
 
-        
+        在 `default.yaml` 里面设置
+
+        ![kdb](./%E8%AE%B0-Rime-%E8%BE%93%E5%85%A5%E6%B3%95%E5%9C%A8-Manjaro-%E4%B8%8A%E7%9A%84%E9%83%A8%E7%BD%B2%E5%8F%8A%E9%85%8D%E7%BD%AE/kbd.png)
+
+        `key_binder` 定义了翻页及常见的双键快捷键  
+        `ascii_composer` 定义了单键快捷键
+
+        - 「全局」样式设置
+
+        ![rime](./%E8%AE%B0-Rime-%E8%BE%93%E5%85%A5%E6%B3%95%E5%9C%A8-Manjaro-%E4%B8%8A%E7%9A%84%E9%83%A8%E7%BD%B2%E5%8F%8A%E9%85%8D%E7%BD%AE/rime.png)
+
+        这里定义了 Rime 输入法的部分样式（或者说在 Linux 平台上是大多数）  
+        `horizontal` 定义候选词列表的展示方向。`true` 为水平。
+
+        - 「方案」默认英文（ascii）输入模式
+
+        ![double_pinyin](./%E8%AE%B0-Rime-%E8%BE%93%E5%85%A5%E6%B3%95%E5%9C%A8-Manjaro-%E4%B8%8A%E7%9A%84%E9%83%A8%E7%BD%B2%E5%8F%8A%E9%85%8D%E7%BD%AE/double_pinyin.png)
+
+        将 `switches` 内的 `ascii_mode` 下 `reset` 的值设为 `1` 即可开启默认恢复英文输入模式的选项。
+
+        基本上修改如上几项就可以恢复一般输入法的输入体验了。
+
+## 参考链接
+
+[1] <https://zhuanlan.zhihu.com/p/471436833>  
+[2] <https://zhuanlan.zhihu.com/p/91129641>  
+[3] <https://www.cnblogs.com/meetrice/p/5556238.html>  
+[4] <https://github.com/rime/plum#packages>
