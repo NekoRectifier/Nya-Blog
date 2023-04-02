@@ -32,54 +32,21 @@ tags:
 
     这样会安装 rime 本体及朙月拼音、地球拼音、注音、五笔等默认输入方案。
 
-    > 具体方案可以到 `~/.config/ibus/rime` 下查看。
-    >
-    > 详表：  
-    > Essentials  
-    > ℞ prelude: 基礎配置 / the prelude package, providing Rime's default settings  
-    > ℞ essay: 八股文 / a shared vocabulary and language model  
-    >
-    > Phonetic-based input methods  
-    > Modern Standard Madarin  
-    > ℞ luna-pinyin: 朙月拼音 / Pinyin input method for Traditional Chinese  
-    > ℞ terra-pinyin: 地球拼音 / School-taught Pinyin, with tone marks  
-    > ℞ bopomofo: 注音 / Zhuyin (aka. Bopomofo)  
-    > ℞ pinyin-simp: 袖珍簡化字拼音  
-    > Derivatives of Pinyin
-    > ℞ double-pinyin: 雙拼 / Double Pinyin (ZiRanMa, ABC, flyPY, MSPY, PYJJ variants)  
-    > ℞ combo-pinyin: 宮保拼音 / Combo Pinyin, a chord-typing input method  
-    > ℞ stenotype: 打字速記法 / a stenographic system derived from ABC Easy Shorthand  
-    >
-    > Other modern varieties of Chinese  
-    > ℞ cantonese: 粵語拼音 / Cantonese  
-    > ℞ jyutping: 粵拼（無聲調） / Cantonese (without tones)  
-    > ℞ wugniu: 上海吳語 / Wu (Shanghainese)  
-    > ℞ soutzoe: 蘇州吳語 / Wu (Suzhounese)  
-    >
-    > Middle Chinese  
-    > ℞ middle-chinese: 中古漢語拼音 / Middle Chinese Romanization  
-    >
-    > Shape-based input methods  
-    > ℞ stroke: 五筆畫 / five strokes  
-    > ℞ cangjie: 倉頡輸入法 / Cangjie input method  
-    > ℞ quick: 速成 / Simplified Cangjie  
-    > ℞ wubi: 五筆字型  
-    > ℞ array: 行列輸入法  
-    > ℞ scj: 快速倉頡  
-    >
-    > Miscellaneous  
-    > ℞ emoji: 繪文字 / input emoji with English or Chinese Pinyin keywords  
-    > ℞ ipa: 國際音標 / International Phonetic Alphabet
+    > 具体方案可以到 `~/.config/ibus/rime` 下查看。其他输入方案在[这里](https://github.com/rime/plum#packages)
 
     重启后，打开 gnome 设置。在键盘选项卡里的“Input Source/输入法”下添加 rime 输入法，并将其他的输入法统统移除。（包括默认的英文）
 
-    ![manjaro-hello-install](./%E8%AE%B0-Rime-%E8%BE%93%E5%85%A5%E6%B3%95%E5%9C%A8-Manjaro-%E4%B8%8A%E7%9A%84%E9%83%A8%E7%BD%B2%E5%8F%8A%E9%85%8D%E7%BD%AE/add-im.png)
+    <!-- ![manjaro-hello-install](./%E8%AE%B0-Rime-%E8%BE%93%E5%85%A5%E6%B3%95%E5%9C%A8-Manjaro-%E4%B8%8A%E7%9A%84%E9%83%A8%E7%BD%B2%E5%8F%8A%E9%85%8D%E7%BD%AE/add-im.png) -->
 
     ![manjaro-hello-install](./%E8%AE%B0-Rime-%E8%BE%93%E5%85%A5%E6%B3%95%E5%9C%A8-Manjaro-%E4%B8%8A%E7%9A%84%E9%83%A8%E7%BD%B2%E5%8F%8A%E9%85%8D%E7%BD%AE/keyboard-add.png)
 
 3. Rime 配置
 
-    我的配置（仅有 flypy）可以在[这里](./%E8%AE%B0-Rime-%E8%BE%93%E5%85%A5%E6%B3%95%E5%9C%A8-Manjaro-%E4%B8%8A%E7%9A%84%E9%83%A8%E7%BD%B2%E5%8F%8A%E9%85%8D%E7%BD%AE/raw/rime-config.zip)下载
+    - `~/.config/ibus/rime` 在下文中称作“配置文件路径”
+
+    ---
+
+    我的配置（仅有 flypy）可以在[这里](/%E8%AE%B0-Rime-%E8%BE%93%E5%85%A5%E6%B3%95%E5%9C%A8-Manjaro-%E4%B8%8A%E7%9A%84%E9%83%A8%E7%BD%B2%E5%8F%8A%E9%85%8D%E7%BD%AE/raw/rime-config.zip)下载
 
     1. 「可选」安装 [东风破/Plum](https://github.com/rime/plum) （Rime 配置工具）
 
@@ -99,4 +66,9 @@ tags:
 
         - 配置文件原理
 
-            rime 的配置文件是由 `~/.config/ibus/rime/build` 下的文件控制的。每次
+            配置文件路径内的文件会在按下“部署”时进行编译，并在 `build/` 目录下输出编译后配置。
+            如果配置文件错误，会将有问题的文件移动至 `trash/` 文件夹。
+
+        - 快捷键
+
+        
