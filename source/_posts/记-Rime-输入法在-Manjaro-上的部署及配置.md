@@ -4,6 +4,7 @@ date: 2023-03-31 23:49:12
 tags: 
   - Linux
   - Software
+excerpt: Rime 这么棒的输入法引擎不尝试下吗？
 ---
 
 ## 前言
@@ -16,7 +17,7 @@ tags:
 
     启动 “Manjaro Hello” 程序，点击最下方的 “Application/应用程序”，选择这个
 
-    ![manjaro-hello-install](./%E8%AE%B0-Rime-%E8%BE%93%E5%85%A5%E6%B3%95%E5%9C%A8-Manjaro-%E4%B8%8A%E7%9A%84%E9%83%A8%E7%BD%B2%E5%8F%8A%E9%85%8D%E7%BD%AE/manjaro-hello-install.png)
+    ![manjaro-hello-install](manjaro-hello-install.png)
 
     然后点击 “UPDATE SYSTEM/升级系统”进行安装。
 
@@ -36,9 +37,9 @@ tags:
 
     重启后，打开 gnome 设置。在键盘选项卡里的“Input Source/输入法”下添加 rime 输入法，并将其他的输入法统统移除。（包括默认的英文）
 
-    <!-- ![manjaro-hello-install](./%E8%AE%B0-Rime-%E8%BE%93%E5%85%A5%E6%B3%95%E5%9C%A8-Manjaro-%E4%B8%8A%E7%9A%84%E9%83%A8%E7%BD%B2%E5%8F%8A%E9%85%8D%E7%BD%AE/add-im.png) -->
+    <!-- ![manjaro-hello-install](add-im.png) -->
 
-    ![manjaro-hello-install](./%E8%AE%B0-Rime-%E8%BE%93%E5%85%A5%E6%B3%95%E5%9C%A8-Manjaro-%E4%B8%8A%E7%9A%84%E9%83%A8%E7%BD%B2%E5%8F%8A%E9%85%8D%E7%BD%AE/keyboard-add.png)
+    ![manjaro-hello-install](keyboard-add.png)
 
 3. Rime 配置
 
@@ -73,21 +74,21 @@ tags:
 
         在 `default.yaml` 里面设置
 
-        ![kdb](./%E8%AE%B0-Rime-%E8%BE%93%E5%85%A5%E6%B3%95%E5%9C%A8-Manjaro-%E4%B8%8A%E7%9A%84%E9%83%A8%E7%BD%B2%E5%8F%8A%E9%85%8D%E7%BD%AE/kbd.png)
+        ![kdb](kbd.png)
 
         `key_binder` 定义了翻页及常见的双键快捷键  
         `ascii_composer` 定义了单键快捷键
 
         - 「全局」样式设置
 
-        ![rime](./%E8%AE%B0-Rime-%E8%BE%93%E5%85%A5%E6%B3%95%E5%9C%A8-Manjaro-%E4%B8%8A%E7%9A%84%E9%83%A8%E7%BD%B2%E5%8F%8A%E9%85%8D%E7%BD%AE/rime.png)
+        ![rime](rime.png)
 
         这里定义了 Rime 输入法的部分样式（或者说在 Linux 平台上是大多数）  
         `horizontal` 定义候选词列表的展示方向。`true` 为水平。
 
         - 「方案」默认英文（ascii）输入模式
 
-        ![double_pinyin](./%E8%AE%B0-Rime-%E8%BE%93%E5%85%A5%E6%B3%95%E5%9C%A8-Manjaro-%E4%B8%8A%E7%9A%84%E9%83%A8%E7%BD%B2%E5%8F%8A%E9%85%8D%E7%BD%AE/double_pinyin.png)
+        ![double_pinyin](double_pinyin.png)
 
         将 `switches` 内的 `ascii_mode` 下 `reset` 的值设为 `1` 即可开启默认恢复英文输入模式的选项。
 
