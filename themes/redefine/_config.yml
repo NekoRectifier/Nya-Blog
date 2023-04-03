@@ -32,7 +32,7 @@ defaults:
 # COLORS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 colors:
   #Primary color
-  primary: "#A31F34"
+  primary: "#536DFE"
   # Secondary color (beta)
   secondary: 
 # COLORS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -50,8 +50,8 @@ global:
     # English fonts
     english: 
       enable: false # Whether to enable custom chinese font
-      family:  # Font family
-      url:  # Font URL to CSS file
+      family: DIN # Font family
+      url: https://fonts.googleapis.com/css2?family=Roboto&display=swap # Font URL to CSS file
   # Content max width
   content_max_width: 1000px
   # Sidebar width
@@ -99,11 +99,13 @@ home_banner:
     light: /images/bg.webp # light mode
     dark: /images/bg.webp # dark mode
   # Home banner title
-  title: Olter
+  title: Oltremare
   # Home banner subtitle
   subtitle:
-    text: ['Criticism is something you can easily avoid by saying nothing, doing nothing, and being nothing.'] # subtitle text, array
-    typing_speed: 48 # Typing speed (ms)
+    text: ['Be a voice, not an echo.', 
+    'All of life is an act of letting go, but what hurts the most is not taking a moment to say goodbye.',
+    '时代就像筛子，筛的每个人流离失所，筛的少数人出类拔萃。'] # subtitle text, array
+    typing_speed: 85 # Typing speed (ms)
     backing_speed: 80 # Backing speed (ms)
     starting_delay: 500 # Start delay (ms)
     backing_delay: 1500 # Backing delay (ms)
@@ -111,7 +113,7 @@ home_banner:
     smart_backspace: true # Whether to smart backspace
   # Color of home banner text
   text_color: 
-    light: "#fff" # light mode
+    light: "#fefefe" # light mode
     dark: "#212121" # dark mode
   # Specific style of the text
   text_style: 
@@ -124,11 +126,11 @@ home_banner:
   # Home banner custom font
   custom_font: 
     # Whether to enable custom font
-    enable: false
+    enable: true
     # Font family
-    family: 
+    family: DIN
     # URL to font CSS file
-    url:
+    url: 
   # Home banner social links
   social_links:
     # Whether to enable
@@ -139,7 +141,7 @@ home_banner:
       instagram: # your Instagram URL
       zhihu:  # your ZhiHu URL
       twitter:  # your twitter URL
-      email:  # your email
+      email: hyx123250@gmail.com # your email
       # ...... # you can add more
 # HOME BANNER <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
@@ -147,7 +149,7 @@ home_banner:
 # NAVIGATION BAR >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 navbar:
   # Auto hide navbar
-  auto_hide: false
+  auto_hide: true
   # Navbar background color
   color:
     left: "#f78736" #left side 
@@ -158,12 +160,12 @@ navbar:
     Home: 
       path: / 
       icon: fa-regular fa-house # can be empty
-    # Archives: 
-    #   path: /archives 
-    #   icon: fa-regular fa-archive # can be empty
-    # Status: 
-    #   path: https://status.evanluo.top/
-    #   icon: fa-regular fa-chart-bar
+    Archives: 
+      path: /archives 
+      icon: fa-regular fa-archive # can be empty
+    Status: 
+      path: https://status.evanluo.top/
+      icon: fa-regular fa-chart-bar
     # About: 
     #   icon: fa-regular fa-user
     #   submenus:
@@ -214,7 +216,7 @@ home:
   # Article tags visibility
   tags:
     enable: true  # Whether to enable
-    limit: 3  # Max number of tags to display
+    limit: 4  # Max number of tags to display
 # HOME PAGE ARTICLE SETTINGS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -224,7 +226,7 @@ articles:
   style:
     font_size: 16px # Font size
     line_height: 1.5 # Line height
-    image_border_radius: 14px # image border radius
+    image_border_radius: 8px # image border radius
     image_alignment: center # image alignment. left, center
   # Word count. Requires hexo-wordcount (npm install hexo-wordcount). See https://github.com/willin/hexo-wordcount
   word_count:
@@ -258,7 +260,7 @@ articles:
   # Article recommendation. Requires nodejieba (npm install nodejieba). Transplanted from hexo-theme-volantis.
   recommendation:
     # Whether to enable article recommendation
-    enable: false
+    enable: true
     # Article recommendation title
     title: 推荐阅读
     # Max number of articles to display
