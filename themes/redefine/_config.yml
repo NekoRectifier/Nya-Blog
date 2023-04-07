@@ -163,9 +163,9 @@ navbar:
     Archives: 
       path: /archives 
       icon: fa-regular fa-archive # can be empty
-    Status: 
-      path: https://status.evanluo.top/
-      icon: fa-regular fa-chart-bar
+    # Status: 
+    #   path: https://status.evanluo.top/
+    #   icon: fa-regular fa-chart-bar
     # About: 
     #   icon: fa-regular fa-user
     #   submenus:
@@ -241,7 +241,7 @@ articles:
   # Code block settings
   code_block:
     copy: true # Whether to enable code block copy button
-    style: mac # mac | simple
+    style: simple # mac | simple
     font: # Custom font
       enable: false # Whether to enable
       family: # Font family
