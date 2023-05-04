@@ -47,7 +47,7 @@ excerpt: Rime 这么棒的输入法引擎不尝试下吗？
 
     ---
 
-    我的配置（仅有 flypy）可以在[这里](/%E8%AE%B0-Rime-%E8%BE%93%E5%85%A5%E6%B3%95%E5%9C%A8-Manjaro-%E4%B8%8A%E7%9A%84%E9%83%A8%E7%BD%B2%E5%8F%8A%E9%85%8D%E7%BD%AE/raw/rime-config.zip)下载
+    我的配置（仅有 flypy）可以在[这里](https://github.com/NekoRectifier/Nya-Blog/blob/main/source/_posts/%E8%AE%B0-Rime-%E8%BE%93%E5%85%A5%E6%B3%95%E5%9C%A8-Manjaro-%E4%B8%8A%E7%9A%84%E9%83%A8%E7%BD%B2%E5%8F%8A%E9%85%8D%E7%BD%AE/raw/rime-config.zip)下载
 
     1. 「可选」安装 [东风破/Plum](https://github.com/rime/plum) （Rime 配置工具）
 
