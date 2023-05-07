@@ -1,0 +1,52 @@
+{
+    "headers": [
+        {
+            "source": "(.*)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, s-maxage=86400, max-age=86400"
+                }
+            ]
+        },
+        {
+            "source": "(.*).html",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, s-maxage=1800, max-age=1800"
+                }
+            ]
+        },
+        {
+            "source": "(.*).js",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, s-maxage=2592000, max-age=2592000"
+                }
+            ]
+        },
+        {
+            "source": "(.*).css",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, s-maxage=2592000, max-age=2592000"
+                }
+            ]
+        },
+        {
+            "source": "(.*).json",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, s-maxage=2592000, max-age=2592000"
+                }
+            ]
+        }
+    ],
+    "regions": [
+        "hkg1"
+    ]
+}
