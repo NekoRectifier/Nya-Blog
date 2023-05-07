@@ -66,7 +66,7 @@ global:
     percentage: true # percentage
   # Website counter (powered by https://busuanzi.ibruce.info/)
   busuanzi_counter:
-    enable: true # enable website counter or not
+    enable: false # enable website counter or not
     site_pv: true # site page view
     site_uv: true # site unique visitor
     post_pv: true # post page view
@@ -126,7 +126,7 @@ home_banner:
   # Home banner custom font
   custom_font: 
     # Whether to enable custom font
-    enable: true
+    enable: false
     # Font family
     family: DIN
     # URL to font CSS file
@@ -166,13 +166,14 @@ navbar:
     # Status: 
     #   path: https://status.evanluo.top/
     #   icon: fa-regular fa-chart-bar
-    # About: 
-    #   icon: fa-regular fa-user
-    #   submenus:
-    #     Me: /about
-    #     Github: https://github.com/EvanNotFound/hexo-theme-redefine
-    #     Blog: https://ohevan.com
-    #     Friends: /friends
+    About: 
+      path: https://github.com/NekoRectifier
+      icon: fa-regular fa-user
+      # submenus:
+      #   Me: /about
+      #   Github: https://github.com/EvanNotFound/hexo-theme-redefine
+      #   Blog: https://ohevan.com
+      #   Friends: /friends
     # Links: 
     #   icon: fa-regular fa-link
     #   submenus:
@@ -266,7 +267,7 @@ articles:
     # Max number of articles to display
     limit: 3
     # Placeholder image
-    placeholder: /images/wallhaven-wqery6-light.webp
+    placeholder: /images/wallhaven-wqery6-dark.webp
     # Skip directory
     skip_dirs: []
 # ARTICLE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
@@ -369,5 +370,5 @@ cdn:
   # Whether to enable CDN
   enable: true
   # CDN Provider
-  provider: aliyun # jsdelivr, unpkg, aliyun
+  provider: jsdelivr # jsdelivr, unpkg, aliyun
 # CDN <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
