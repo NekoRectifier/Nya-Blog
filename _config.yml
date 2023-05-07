@@ -3,7 +3,7 @@
 # Site
 title: Nya-Blog
 subtitle: Criticism is something you can easily avoid by saying nothing, doing nothing, and being nothing.
-description: description
+description: ''
 keywords: 
   - Programming
   - Tweaks
@@ -27,8 +27,6 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render: 
-    - 'payment/**'
-    - 'autocheckin/**'
     - 'assets/**'
     - 'r-18/**'
 
