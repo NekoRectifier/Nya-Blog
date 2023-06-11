@@ -1,7 +1,0 @@
-config_version: 1.0
-
-style:
-  cursor_type: insert
-  horizontal: true
-  inline_preedit: true
-  preedit_style: composition

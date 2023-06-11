@@ -1,9 +1,0 @@
-var:
-  last_build_time: 1680276182
-  option:
-    full_shape: false
-    simplification: true
-  schema_access_time:
-    .default: 1680268602
-    double_pinyin_flypy: 1680270287
-    luna_pinyin_simp: 1680267651

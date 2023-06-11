@@ -35,7 +35,7 @@ excerpt: Rime 这么棒的输入法引擎不尝试下吗？
 
     > 具体方案可以到 `~/.config/ibus/rime` 下查看。其他输入方案在[这里](https://github.com/rime/plum#packages)
 
-    重启后，打开 gnome 设置。在键盘选项卡里的“Input Source/输入法”下添加 rime 输入法，并将其他的输入法统统移除。（包括默认的英文）
+    重启后，打开 gnome 设置。在键盘选项卡里的“Input Source/输入法”下添加 rime 输入法，并将其他的输入法统统移除。（不包括默认的英文）
 
     <!-- ![manjaro-hello-install](add-im.png) -->
 
@@ -47,7 +47,7 @@ excerpt: Rime 这么棒的输入法引擎不尝试下吗？
 
     ---
 
-    我的配置（仅有 flypy）可以在[这里](https://github.com/NekoRectifier/Nya-Blog/blob/main/source/_posts/%E8%AE%B0-Rime-%E8%BE%93%E5%85%A5%E6%B3%95%E5%9C%A8-Manjaro-%E4%B8%8A%E7%9A%84%E9%83%A8%E7%BD%B2%E5%8F%8A%E9%85%8D%E7%BD%AE/raw/rime-config.zip)下载
+    我的配置（仅有 flypy）可以在[这里](https://github.com/NekoRectifier/dot-files/tree/main/.local/share/fcitx5/rime)下载
 
     1. 「可选」安装 [东风破/Plum](https://github.com/rime/plum) （Rime 配置工具）
 
@@ -90,7 +90,10 @@ excerpt: Rime 这么棒的输入法引擎不尝试下吗？
 
         ![double_pinyin](double_pinyin.png)
 
-        将 `switches` 内的 `ascii_mode` 下 `reset` 的值设为 `1` 即可开启默认恢复英文输入模式的选项。
+        将 `switches` 内的 `ascii_mode` 下 `reset` 的值设为 `1` 即可开启默认恢复英文输入模式的选项。  
+        
+        > 注：一般来说，在Windows上习惯的的中英文切换是通过 ctrl + space 或者 shift 实现在中文/英文的切换。但是在 rime 下有两种输入模式，即 ascii（英文）和用于中文输入的中文模式。在这里更加推荐在 fcitx-configtools 里设置一个 `Keyboard (US)` 选项作为英文输入法，再将 rime 设为默认中文输入模式。如图所示：
+        ![fcitx-configuration](image.png)
 
         基本上修改如上几项就可以恢复一般输入法的输入体验了。
 
