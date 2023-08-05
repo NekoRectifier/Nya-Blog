@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "7.0.0-rc1"
+    "version": "7.0.0-rc2"
   },
   "dependencies": {
-    "hexo": "^7.0.0-rc1",
+    "hexo": "^7.0.0-rc2",
     "hexo-admonition": "^1.1.2",
     "hexo-asset-image": "github:xcodebuild/hexo-asset-image",
     "hexo-generator-archive": "^1.0.0",
@@ -21,6 +21,7 @@
     "hexo-renderer-stylus": "^2.0.1",
     "hexo-server": "^2.0.0",
     "hexo-theme-keep": "^3.4.3",
+    "hexo-theme-vivia": "^0.3.1",
     "hexo-wordcount": "^6.0.1",
     "nodejieba": "^2.6.0"
   },
