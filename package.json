@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "cnpm": "^9.2.0",
+    "colorjs.io": "^0.4.5",
     "hexo": "^7.0.0-rc2",
     "hexo-admonition": "^1.1.2",
     "hexo-asset-image": "github:xcodebuild/hexo-asset-image",
