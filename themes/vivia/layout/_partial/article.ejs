@@ -10,9 +10,13 @@
         <%- partial('post/title', {class_name: 'p-name article-title'}) %>
         <div class='meta-info-bar'>
           <%- partial('post/date', {class_name: 'meta-info', date_format: null}) %>
-          <div class="need-seperator meta-info">
-            <%- partial('post/category') %>  
-          </div>
+          
+            <% if(partial('post/category', {decode: true}) == "未分类 ") { %>
+              <div class="need-seperator meta-info"></div>
+                <%- partial('post/category') %>
+              </div>
+            <% } %>
+          
           <div class="wordcount need-seperator meta-info">
             <%- symbolsCount(post) %> <%- __('words') %> 
           </div>
