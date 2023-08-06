@@ -21,7 +21,9 @@
       </header>
       <div class="e-content article-entry" itemprop="articleBody">
         <% if (post.excerpt && index){ %>
-          <%- post.excerpt %>
+          <div class="excerpt-text">
+            <%- post.excerpt %>
+          </div>
         <% } else if (is_home() && !post.excerpt && theme.home.style != 'detail') { %>
           <div class="truncate-text">
             <%- truncate(strip_html(post.content), {length: 500}) %>  
