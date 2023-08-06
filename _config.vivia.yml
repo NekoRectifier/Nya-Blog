@@ -12,7 +12,7 @@ favicon:                   # Path to the custom favicon (e.g. "/favicon.png" if 
 
 # Banner
 banner:
-  enable: false            # Display banner
+  enable: true             # Display banner
   url: /assets/banner.png
   position: center         # Specifies the alignment of the image, see the "object-position" property in CSS
   onAllPages: true         # Display banner on all pages
