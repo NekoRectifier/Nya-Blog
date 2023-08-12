@@ -3,6 +3,7 @@ title: pandavan 上配置 clash 教程
 date: 2021-08-15 19:20:02
 tags: 
   - Router
+excerpt: 小内存的设备还是不建议使用很容易把整个路由器卡死。像这种东西还是更推荐在软路由上安装。
 ---
 
 本次使用的设备是 **极路由 B70** 已刷入最新breed与pandavan.

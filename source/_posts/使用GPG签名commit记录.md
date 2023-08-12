@@ -3,6 +3,7 @@ title: 使用GPG签名commit记录
 date: 2022-01-29 11:16:10
 tags: 
   - git
+excerpt: 不好好使用 GPG 签名你的 commit 可是有被别人冒用身份的风险哦（不过也没人会专程来冒充我就是了
 ---
 
 ## 前言
