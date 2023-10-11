@@ -38,7 +38,7 @@ recent_posts_limits: 5
 # Personal info
 avatar: /assets/avatar.webp
 author: NekoRectifier
-subtitle: 人生中一半的麻烦源于答应的太快，拒绝的太慢。<hr>格雷格·麦基沃恩
+subtitle: 人生中一半的麻烦源于答应的太快，拒绝的太慢。<br>—— 格雷格·麦基沃恩
 links:
   - name: Twitter
     icon: fa-brands fa-twitter      # Find icon codes at https://fontawesome.com/search
