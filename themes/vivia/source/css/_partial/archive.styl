@@ -73,8 +73,6 @@
     justify-content: center
     align-items: center
     color: var(--card-btn-icon)
-    span
-      font-size: 26px
     &.disabled
       color: var(--neut-L10)
       pointer-events: none
@@ -89,6 +87,7 @@
         background: var(--card-btn-active)
 
   .page-number
+  .space
     width: 40px
     height: 40px
     display: flex
@@ -99,8 +98,9 @@
     padding: 0
     @media mq-mobile
       display: none
+
   .space
-    color: color-border   // TODO to be tested
+    color: color-border
 
 width-date = 10%
 width-line = 10%

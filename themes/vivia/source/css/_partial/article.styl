@@ -73,7 +73,7 @@
   @media mq-mobile
     padding: article-top-padding mobile-article-side-padding 0
   h1
-    margin-bottom: 0px
+    margin-bottom: 0
   .meta-info-bar
     margin-bottom: 6px
 
@@ -82,6 +82,8 @@
   justify-content: flex-end
   align-items: center
   background-size: cover
+  background-position: center center
+  background-repeat: no-repeat
   transition: all trans-style;
   @media mq-mobile
     display: none
@@ -130,17 +132,6 @@
 //     width: min(30%, 360px)
 //   }
 // }
-
-.excerpt-text
-  overflow: hidden
-  text-overflow: ellipsis
-  display: -webkit-box
-  -webkit-line-clamp: 2 // number of lines to show
-  line-clamp: 2
-  -webkit-box-orient: vertical
-  margin: 16px 0
-  line-height: line-height
-  word-break: break-word
 
 .truncate-text
   overflow: hidden
@@ -214,7 +205,8 @@
     flex-direction: column
     flex-wrap: nowrap
     margin: 1.2em 0
-    footer
+    transition: background trans-style
+  footer
       font-size: font-size
       margin: line-height 0
       font-family: font-sans
@@ -300,8 +292,6 @@
   align-items: center
   &:hover
     color: var(--btn-content-hover)
-    &:before
-      background: var(--btn-content-hover)
 
 .article-tag-list-link
   &:before

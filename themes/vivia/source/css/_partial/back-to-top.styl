@@ -2,7 +2,7 @@
     width: 60px
     height: 60px
     position: absolute
-    right: -84px
+    right: 0
     top: 0
     @media mq-mobile
         display: none
@@ -20,8 +20,13 @@
     border: none
     position: fixed
     bottom: 240px
-    opacity: 0
-    transition: background trans-style, opacity trans-style
+    opacity: 1
+    transition: background trans-style, opacity trans-style, transform trans-style
     cursor: pointer
-    span
-        font-size: 40px
+    transform: translate(80px)
+    i
+        font-size: 28px
+    &.hide
+        transform: translate(80px) scale(0.9)
+        opacity: 0
+        pointer-events: none

@@ -1,4 +1,5 @@
 <% let cover = post.photos && post.photos.length %> 
+<% let description = post.description && post.description.length %>
 
 <article id="<%= post.layout %>-<%= post.slug %>" class="h-entry article article-type-<%= post.layout %>" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <% if (is_post() || theme.home.style == 'detail') { %>
@@ -10,13 +11,9 @@
         <%- partial('post/title', {class_name: 'p-name article-title'}) %>
         <div class='meta-info-bar'>
           <%- partial('post/date', {class_name: 'meta-info', date_format: null}) %>
-          
-            <% if(partial('post/category', {decode: true}) == "未分类 ") { %>
-              <div class="need-seperator meta-info"></div>
-                <%- partial('post/category') %>
-              </div>
-            <% } %>
-          
+          <div class="need-seperator meta-info">
+            <%- partial('post/category') %>  
+          </div>
           <div class="wordcount need-seperator meta-info">
             <%- symbolsCount(post) %> <%- __('words') %> 
           </div>
@@ -25,12 +22,14 @@
       </header>
       <div class="e-content article-entry" itemprop="articleBody">
         <% if (post.excerpt && index){ %>
-          <div class="excerpt-text">
-            <%- post.excerpt %>
-          </div>
+          <%- post.excerpt %>
         <% } else if (is_home() && !post.excerpt && theme.home.style != 'detail') { %>
           <div class="truncate-text">
-            <%- truncate(strip_html(post.content), {length: 500}) %>  
+            <% if(description){ %>
+              <%- strip_html(post.description) %>
+            <% } else{ %>
+              <%- truncate(strip_html(post.content), {length: 500}) %>
+            <% } %>
           </div>
         <% } else { %>
           <%- post.content %>
@@ -68,7 +67,7 @@
   <% } %>
 </article>
 
-<% if (!index && theme.comment.valine.enable) { %>
+<% if (!index && theme.comment.valine && theme.comment.valine.enable) { %>
   <% 
     let valineConfig = theme.comment.valine;
     valineConfig.el = '#vcomments';
@@ -84,4 +83,24 @@
   <script>
       new Valine(<%- JSON.stringify(valineConfig) %>);
   </script>
-<% } %> 
+<% } %>
+
+<% if (!index && theme.comment.twikoo && theme.comment.twikoo.enable) { %>
+  <script src="https://cdn.staticfile.org/twikoo/1.6.21/twikoo.all.min.js"></script>
+  <div id="comment-card" class="comment-card">
+    <div class="main-title-bar">
+      <div class="main-title-dot"></div>
+      <div class="main-title"><%= __('comment') %> </div>
+    </div>
+    <div id="tcomment"></div>
+  </div>
+  <script>
+      twikoo.init({
+          envId: '<%- theme.comment.twikoo.envID %>',
+          el: '#tcomment',
+          region: '<%- theme.comment.twikoo.region %>',
+          path: '<%- theme.comment.twikoo.path %>',
+          lang: '<%- theme.comment.twikoo.lang %>',
+      })
+  </script>
+  <% } %>
