@@ -60,7 +60,7 @@ tags:
 ![vt](version_test.png)
   如图所示即为正常。
 
-# Visual Studio Code 设置
+<!-- # Visual Studio Code 设置
 
 1. 安装 CodeRunner 插件
   ![i_cr](install_cr.png)
@@ -91,7 +91,7 @@ tags:
     ```
 3. 完成配置
 
-  之后在右键菜单/<kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>n</kbd> 都可以直接编译运行 C/C++ 程序并与之交互了。
+  之后在右键菜单/<kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>n</kbd> 都可以直接编译运行 C/C++ 程序并与之交互了。 -->
 
 
 
