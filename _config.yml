@@ -85,3 +85,6 @@ search:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+archive_generator:
+  per_page: 0
