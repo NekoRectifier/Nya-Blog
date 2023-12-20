@@ -44,9 +44,8 @@ hexo.on('generateAfter', function(post){
     if (hexo.theme.categories && hexo.theme.categories.max_depth
             && hexo.theme.categories.max_depth > 0) {
         depth = hexo.theme.categories.max_depth;
-        console.log("depth: " + depth);
     }
-    let tree = list_to_tree(hexo.locals.get("categories").data);
+    let tree = list_to_tree(hexo.locals.get("categories").find({}).data);
     let cate_tree = build_tag_tree(tree, 1, depth);
     hexo.extend.helper.register('categories_tree', function() {
         return cate_tree;
